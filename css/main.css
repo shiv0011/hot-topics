@@ -1,0 +1,418 @@
+body {
+    width: 95%;
+    margin-left: 0.5em;
+    background-color: white;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-left: 10.5em;
+}
+
+.tagline {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive, serif;
+}
+
+.tagline a {
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+}
+
+.nav {
+    background-color: #0e230d;
+    color: white;
+    height: 2em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive, serif;
+    display: block;
+}
+
+.nav a {
+    color: white;
+    display: block;
+}
+
+.articleh2 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive, serif;
+}
+
+.articleimg {
+    width: 98%;
+}
+
+.articlep {
+    font-size: 0.75rem;
+    font-family: 'Poiret One', cursive, sans-serif;
+}
+
+.portfolioh3 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive, serif;
+}
+
+.portfolioimg {
+    width: 100%;
+}
+
+.portfolioh4 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive, serif;
+}
+
+footer {
+    clear: both;
+    font-family: 'Abril Fatface', cursive, serif;
+    margin-left: 2em;
+}
+
+.icons {
+    width: 1em;
+    height: auto;
+    float: left;
+    margin-top: 3em;
+    margin-right: 1em;
+    padding-top: 2em;
+}
+
+.company {
+    clear: both;
+}
+
+
+@media only screen and (min-width: 35em) {
+    body {
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 36.5em;
+    }
+
+    .tagline {
+        position: absolute;
+        margin-top: 8em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav {
+        background-color: #0e230d;
+        color: white;
+        height: 2.5em;
+        padding-top: 1.5em;
+        margin-top: 2em;
+        margin-bottom: 6em;
+        margin-left: 2em;
+        font-size: 1.2em;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    li {
+        float: left;
+        text-decoration: none;
+        width: 45%;
+        margin-right: 1em;
+    }
+
+    .articleh2 {
+        clear: both;
+        text-align: center;
+    }
+
+    .articleimg {
+        width: 40%;
+        float: left;
+        margin: 2em;
+    }
+
+    .articlep {
+        font-size: 1rem;
+        margin: 2em;
+        padding-top: 1em;
+    }
+
+    .portfolioh3 {
+        clear: both;
+        text-align: center;
+    }
+
+    #ione {
+        float: left;
+        width: 40%;
+        margin: 0.7em;
+        margin-left: 2em;
+    }
+
+    #itwo {
+        float: right;
+        width: 40%;
+        margin: 0.7em;
+        margin-right: 2em;
+        position: relative;
+        bottom: 33em;
+    }
+
+    #ithree {
+        float: left;
+        width: 40%;
+        margin: 0.7em;
+        margin-left: 2em;
+        position: relative;
+        bottom: 10em;
+    }
+
+    #ifour {
+        float: right;
+        width: 40%;
+        margin: 0.7em;
+        margin-right: 2em;
+        position: relative;
+        bottom: 43em;
+    }
+
+    #ifive {
+        float: left;
+        width: 40%;
+        margin: 0.7em;
+        margin-left: 2em;
+        position: relative;
+        bottom: 20em;
+    }
+
+    #isix {
+        float: right;
+        width: 40%;
+        margin: 0.7em;
+        margin-right: 2em;
+        position: relative;
+        bottom: 53em;
+    }
+
+    #hone {
+        clear: both;
+        float: left;
+        width: 50%;
+    }
+
+    #htwo {
+        clear: both;
+        float: right;
+        width: 50%;
+        position: relative;
+        bottom: 33em;
+    }
+
+    #hthree {
+        clear: both;
+        float: left;
+        width: 50%;
+        position: relative;
+        bottom: 10em;
+    }
+
+    #hfour {
+        clear: both;
+        float: right;
+        width: 50%;
+        position: relative;
+        bottom: 43em
+    }
+
+    #hfive {
+        clear: both;
+        float: left;
+        width: 50%;
+        position: relative;
+        bottom: 20em;
+    }
+
+    #hsix {
+        clear: both;
+        float: right;
+        width: 50%;
+        position: relative;
+        bottom: 53em;
+    }
+
+}
+
+@media only screen and (min-width: 80rem) {
+    body {
+        width: 80%;
+        padding-left: 10em;
+    }
+
+    .logo {
+        padding-top: 2em;
+        float: left
+    }
+
+    .nav {
+        background-color: #0e230d;
+        color: white;
+        height: 2.5em;
+        padding-top: 1.5em;
+        margin-bottom: 6em;
+        font-size: 1.2em;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    li {
+        float: left;
+        text-decoration: none;
+        width: 15%;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .tagline {
+        clear: both;
+        width: 80%;
+        text-align: left;
+    }
+
+    .articleh2 {
+        clear: both;
+        text-align: left;
+        margin-left: 1.8em;
+    }
+
+    .articleimg {
+        width: 20%;
+        float: left;
+        margin: 2em;
+    }
+
+    .articlep {
+        font-size: 1.25rem;
+        margin: 2em;
+        padding-top: 0.5em;
+    }
+
+    .portfolioh3 {
+        clear: both;
+        text-align: center;
+    }
+
+    #ione {
+        width: 30%;
+    }
+
+    #itwo {
+        float: right;
+        width: 30%;
+        position: relative;
+        bottom: 24em;
+        right: 23em;
+    }
+
+    #ithree {
+        float: right;
+        width: 30%;
+        position: relative;
+        bottom: 48em;
+        left: 26em;
+    }
+
+    #ifour {
+        float: left;
+        width: 30%;
+        margin: 0.7em;
+        margin-right: 2em;
+        position: relative;
+        bottom: 40em;
+        right: 22em;
+    }
+
+    #ifive {
+        float: right;
+        width: 30%;
+        margin: 0.7em;
+        margin-left: 2em;
+        position: relative;
+        bottom: 64em;
+        right: 2em;
+    }
+
+    #isix {
+        float: right;
+        width: 30%;
+        margin: 0.7em;
+        margin-right: 2em;
+        position: relative;
+        bottom: 88.5em;
+        left: 3.5em;
+    }
+
+    #hone {
+        width: 30%;
+    }
+
+    #htwo {
+        clear: both;
+        float: right;
+        width: 30%;
+        position: relative;
+        bottom: 24em;
+        right: 26em;
+    }
+
+    #hthree {
+        clear: both;
+        float: left;
+        width: 30%;
+        position: relative;
+        bottom: 48.5em;
+        left: 56em;
+    }
+
+    #hfour {
+        clear: both;
+        float: right;
+        width: 30%;
+        position: relative;
+        bottom: 40em;
+        right: 53.5em;
+    }
+
+    #hfive {
+        clear: both;
+        float: left;
+        width: 30%;
+        position: relative;
+        bottom: 64.2em;
+        left: 27em;
+    }
+
+    #hsix {
+        clear: both;
+        float: right;
+        width: 30%;
+        position: relative;
+        bottom: 88em;
+        left: 3em;
+    }
+
+
+}
