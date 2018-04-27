@@ -1,19 +1,9 @@
-body {
-    width: 95%;
-    margin-left: 0.5em;
-    background-color: white;
-}
-
 a {
     display: block;
     text-decoration: none;
 }
 
-.logo {
-    width: 100px;
-    height: auto;
-    margin-left: 10.5em;
-}
+
 
 .tagline {
     text-align: center;
@@ -97,41 +87,136 @@ footer {
     clear: both;
 }
 
-
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 35em) {
     body {
-        width: 100%;
+        width: 95%;
+        margin-left: 0.5em;
+        background-color: white;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
     }
 
     .logo {
-        margin-left: 36.5em;
+        width: 100px;
+        height: auto;
+        margin-left: 10.5em;
     }
 
     .tagline {
-        position: absolute;
-        margin-top: 8em;
         text-align: center;
-        width: 100%;
+        text-decoration: none;
+        font-family: 'Abril Fatface', cursive, serif;
+    }
+
+    .tagline a {
+        color: black;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: block;
     }
 
     .nav {
         background-color: #0e230d;
         color: white;
-        height: 2.5em;
-        padding-top: 1.5em;
-        margin-top: 2em;
-        margin-bottom: 6em;
-        margin-left: 2em;
+        height: 2em;
+        padding-top: 1em;
+        margin-bottom: 2em;
         font-size: 1.2em;
         text-align: center;
         text-decoration: none;
+        font-family: 'Abril Fatface', cursive, serif;
+        display: block;
+    }
+
+    .nav a {
+        color: white;
+        display: block;
+    }
+
+    .articleh2 {
+        text-align: center;
+        font-family: 'Abril Fatface', cursive, serif;
+    }
+
+    .articleimg {
+        width: 98%;
+    }
+
+    .articlep {
+        font-size: 0.75rem;
+        font-family: 'Poiret One', cursive, sans-serif;
+    }
+
+    .portfolioh3 {
+        text-align: center;
+        font-family: 'Abril Fatface', cursive, serif;
+    }
+
+    .portfolioimg {
+        width: 100%;
+    }
+
+    .portfolioh4 {
+        text-align: center;
+        font-family: 'Abril Fatface', cursive, serif;
+    }
+
+    footer {
+        clear: both;
+        font-family: 'Abril Fatface', cursive, serif;
+        margin-left: 2em;
+    }
+
+    .icons {
+        width: 1em;
+        height: auto;
+        float: left;
+        margin-top: 3em;
+        margin-right: 1em;
+        padding-top: 2em;
+    }
+
+    .company {
+        clear: both;
+    }
+
+}
+
+@media only screen and (min-width: 35em) {
+    body {
+        width: 100%;
+        margin: 1em;
+
+    }
+
+    .logo {
+        margin-left: 13em;
+        margin-bottom: 2em;
+
+    }
+
+    .tagline h1 {
+        position: absolute;
+        left: 6.5em;
+        top: 7em;
+        margin-bottom: 2em;
+    }
+
+    .nav {
+        margin-bottom: 5em;
     }
 
     li {
+        width: 13em;
         float: left;
-        text-decoration: none;
-        width: 45%;
-        margin-right: 1em;
+        margin-right: 0.5em;
     }
 
     .articleh2 {
@@ -157,258 +242,236 @@ footer {
     }
 
     #ione {
-        float: left;
-        width: 40%;
-        margin: 0.7em;
-        margin-left: 2em;
+        width: 15.5em;
+        position: absolute;
+        bottom: 4.6em;
     }
 
     #itwo {
-        float: right;
-        width: 40%;
-        margin: 0.7em;
-        margin-right: 2em;
-        position: relative;
-        bottom: 33em;
+        width: 15.5em;
+        position: absolute;
+        left: 17.2em;
+        bottom: 4.6em;
     }
 
     #ithree {
-        float: left;
-        width: 40%;
-        margin: 0.7em;
-        margin-left: 2em;
-        position: relative;
-        bottom: 10em;
+        width: 15.5em;
+        position: absolute;
+        bottom: -17em;
     }
 
     #ifour {
-        float: right;
-        width: 40%;
-        margin: 0.7em;
-        margin-right: 2em;
-        position: relative;
-        bottom: 43em;
+        width: 15.5em;
+        position: absolute;
+        left: 17.2em;
+        bottom: -17em;
     }
 
     #ifive {
-        float: left;
-        width: 40%;
-        margin: 0.7em;
-        margin-left: 2em;
-        position: relative;
-        bottom: 20em;
+        width: 15.5em;
+        position: absolute;
+        bottom: -39em;
     }
 
     #isix {
-        float: right;
-        width: 40%;
-        margin: 0.7em;
-        margin-right: 2em;
-        position: relative;
-        bottom: 53em;
+        width: 15.5em;
+        position: absolute;
+        left: 17.2em;
+        bottom: -39em;
     }
 
     #hone {
-        clear: both;
-        float: left;
-        width: 50%;
+        position: absolute;
+        bottom: 0em;
+        left: 7em;
     }
 
     #htwo {
-        clear: both;
-        float: right;
-        width: 50%;
-        position: relative;
-        bottom: 33em;
+        position: absolute;
+        left: 23em;
+        bottom: 0em;
     }
 
     #hthree {
-        clear: both;
-        float: left;
-        width: 50%;
-        position: relative;
-        bottom: 10em;
+        position: absolute;
+        bottom: -22em;
+        left: 7em;
     }
 
     #hfour {
-        clear: both;
-        float: right;
-        width: 50%;
-        position: relative;
-        bottom: 43em
+        position: absolute;
+        left: 23em;
+        bottom: -22em;
     }
 
     #hfive {
-        clear: both;
-        float: left;
-        width: 50%;
-        position: relative;
-        bottom: 20em;
+        position: absolute;
+        bottom: -45em;
+        left: 7em;
     }
 
     #hsix {
-        clear: both;
-        float: right;
-        width: 50%;
-        position: relative;
-        bottom: 53em;
+        position: absolute;
+        left: 23em;
+        bottom: -45em;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -55em;
     }
 
 }
-+@media only screen and (min-width: 80rem) {
-+    body {
-+        width: 80%;
-+        padding-left: 10em;
-+    }
-+
-+    .logo {
-+        padding-top: 2em;
-+        float: left
-+    }
-+
-+    .nav {
-+        background-color: #0e230d;
-+        color: white;
-+        height: 2.5em;
-+        padding-top: 1.5em;
-+        margin-bottom: 6em;
-+        font-size: 1.2em;
-+        text-align: center;
-+        text-decoration: none;
-+    }
-+
-+    li {
-+        float: left;
-+        text-decoration: none;
-+        width: 15%;
-+        margin-right: 1em;
-+        margin-left: 1em;
-+    }
-+
-+    .tagline {
-+        clear: both;
-+        width: 80%;
-+        text-align: left;
-+    }
-+
-+    .articleh2 {
-+        clear: both;
-+        text-align: left;
-+        margin-left: 1.8em;
-+    }
-+
-+    .articleimg {
-+        width: 20%;
-+        float: left;
-+        margin: 2em;
-+    }
-+
-+    .articlep {
-+        font-size: 1.25rem;
-+        margin: 2em;
-+        padding-top: 0.5em;
-+    }
-+
-+    .portfolioh3 {
-+        clear: both;
-+        text-align: center;
-+    }
-+
-+    #ione {
-+        width: 30%;
-+    }
-+
-+    #itwo {
-+        float: right;
-+        width: 30%;
-+        position: relative;
-+        bottom: 24em;
-+        right: 23em;
-+    }
-+
-+    #ithree {
-+        float: right;
-+        width: 30%;
-+        position: relative;
-+        bottom: 48em;
-+        left: 26em;
-+    }
-+
-+    #ifour {
-+        float: left;
-+        width: 30%;
-+        margin: 0.7em;
-+        margin-right: 2em;
-+        position: relative;
-+        bottom: 40em;
-+        right: 22em;
-+    }
-+
-+    #ifive {
-+        float: right;
-+        width: 30%;
-+        margin: 0.7em;
-+        margin-left: 2em;
-+        position: relative;
-+        bottom: 64em;
-+        right: 2em;
-+    }
-+
-+    #isix {
-+        float: right;
-+        width: 30%;
-+        margin: 0.7em;
-+        margin-right: 2em;
-+        position: relative;
-+        bottom: 88.5em;
-+        left: 3.5em;
-+    }
-+
-+    #hone {
-+        width: 30%;
-+    }
-+
-+    #htwo {
-+        clear: both;
-+        float: right;
-+        width: 30%;
-+        position: relative;
-+        bottom: 24em;
-+        right: 26em;
-+    }
-+
-+    #hthree {
-+        clear: both;
-+        float: left;
-+        width: 30%;
-+        position: relative;
-+        bottom: 48.5em;
-+        left: 56em;
-+    }
-+
-+    #hfour {
-+        clear: both;
-+        float: right;
-+        width: 30%;
-+        position: relative;
-+        bottom: 40em;
-+        right: 53.5em;
-+    }
-+
-+    #hfive {
-+        clear: both;
-+        float: left;
-+        width: 30%;
-+        position: relative;
-+        bottom: 64.2em;
-+        left: 27em;
-+    }
-+
-+    #hsix {
-+        clear: both;
-+        float: right;
-+        width: 30%;
-+        position: relative;
-+        bottom: 88em;
-+        left: 3em;
-+    }
+
+@media only screen and (min-width: 80rem) {
+    body {
+        width: 80%;
+        margin: 0em;
+        padding-left: 9em;
+    }
+
+    .logo {
+        float: left;
+        margin: 0em;
+        margin-right: 4em;
+        margin-left: 2em;
+        margin-top: 1.5em;
+        margin-bottom: 10em;
+    }
+
+
+    li {
+        float: left;
+        width: 10em;
+        margin-right: 1em;
+        margin-top: 3em;
+    }
+
+    .tagline h1 {
+        width: 40%;
+        height: 2em;
+        text-align: left;
+        top: 5em;
+        position: absolute;
+    }
+
+    .articleh2 {
+        clear: both;
+        text-align: left;
+        margin-left: 1.8em;
+    }
+
+    .articleimg {
+        width: 20%;
+        float: left;
+        margin: 2em;
+    }
+
+    .articlep {
+        font-size: 1.25rem;
+        margin: 2em;
+        padding-top: 0.5em;
+    }
+
+    .portfolioh3 {
+        clear: both;
+        text-align: center;
+        margin-top: 5em;
+        margin-bottom: 1em;
+    }
+
+    #ione {
+        width: 23em;
+        float: left;
+        position: absolute;
+        left: 11em;
+    }
+
+    #itwo {
+        width: 23em;
+        float: left;
+        left: 37.5em;
+        position: absolute;
+    }
+
+    #ithree {
+        width: 23em;
+        float: left;
+        left: 64em;
+        bottom: 4.6em;
+        position: absolute;
+    }
+
+    #ifour {
+        width: 23em;
+        margin: 0em;
+        left: 11em;
+        position: absolute;
+        bottom: -30em;
+    }
+
+    #ifive {
+        width: 23em;
+        float: left;
+        left: 37.5em;
+        position: absolute;
+        bottom: -30em;
+    }
+
+    #isix {
+        width: 23em;
+        float: left;
+        left: 64em;
+        position: absolute;
+        bottom: -30em;
+    }
+
+    #hone {
+        float: left;
+        position: absolute;
+        top: 43em;
+        left: 19em;
+    }
+
+    #htwo {
+        float: left;
+        position: absolute;
+        top: 43em;
+        left: 47.5em;
+    }
+
+    #hthree {
+        float: left;
+        position: absolute;
+        top: 43em;
+        left: 74em;
+    }
+
+    #hfour {
+        float: left;
+        position: absolute;
+        top: 78em;
+        left: 19em;
+    }
+
+
+    #hfive {
+        float: left;
+        position: absolute;
+        top: 78em;
+        left: 48em;
+    }
+
+    #hsix {
+        float: left;
+        position: absolute;
+        top: 78em;
+        left: 74em;
+    }
+
+    footer {
+        clear: both;
+        position: absolute;
+        top: 85em;
+    }
+}
