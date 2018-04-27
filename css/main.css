@@ -255,157 +255,160 @@ footer {
     }
 
 }
-
-@media only screen and (min-width: 80rem) {
-    body {
-        width: 80%;
-        margin: 0em;
-        padding-left: 9em;
-    }
-
-    .logo {
-        float: left;
-        margin: 0em;
-        margin-right: 4em;
-        margin-left: 2em;
-        margin-top: 1.5em;
-        margin-bottom: 10em;
-    }
-
-
-    li {
-        float: left;
-        width: 10em;
-        margin-right: 1em;
-        margin-top: 3em;
-    }
-
-    .tagline h1{
-        float: left;
-        width: 40%;
-        height: 2em;
-        text-align: left;
-        margin-top: 5em;
-        position: absolute;
-        right: 23em;
-    }
-
-    .articleh2 {
-        clear: both;
-        text-align: left;
-        margin-left: 1.8em;
-    }
-
-    .articleimg {
-        width: 20%;
-        float: left;
-        margin: 2em;
-    }
-
-    .articlep {
-        font-size: 1.25rem;
-        margin: 2em;
-        padding-top: 0.5em;
-    }
-
-    .portfolioh3 {
-        clear: both;
-        text-align: center;
-        margin-top: 5em;
-    }
-
-    #ione {
-        width: 23em;
-        float: left;
-        position: absolute;
-        left: 11em;
-    }
-
-    #itwo {
-        width: 23em;
-        float: left;
-        margin-left: 28em;
-        position: absolute;
-    }
-
-    #ithree {
-        width: 23em;
-        float: left;
-        margin-left: 54em;
-        position: absolute;
-    }
-
-    #ifour {
-        width: 23em;
-        margin: 0em;
-        margin-top: 30em;
-        right: 61em;
-        position: absolute;
-    }
-
-    #ifive {
-        width: 23em;
-        float: left;
-        margin-top: 30em;
-        margin-left: 28em;
-        position: absolute;
-    }
-
-    #isix {
-        width: 23em;
-        float: left;
-        margin-top: 30em;
-        margin-left: 54em;
-        position: absolute;
-    }
-
-    #hone {
-        float: left;
-        position: absolute;
-        margin-top: 25em;
-        margin-left: 12em;
-    }
-
-    #htwo {
-        float: left;
-        position: absolute;
-        margin-top: 25em;
-        margin-left: 38em;
-    }
-
-    #hthree {
-        float: left;
-        position: absolute;
-        margin-top: 25em;
-        margin-left: 65em;
-    }
-
-    #hfour {
-        float: left;
-        position: absolute;
-        margin-top: 55em;
-        margin-left: 12em;
-    }
-    
-
-    #hfive {
-        float: left;
-        position: absolute;
-        margin-top: 55em;
-        margin-left: 38em;
-    }
-
-    #hsix {
-        float: left;
-        position: absolute;
-        margin-top: 55em;
-        margin-left: 65em;
-    }
-
-    footer{
-        clear: both;
-        position: absolute;
-        margin-top: 60em;
-    }
-}
-
++@media only screen and (min-width: 80rem) {
++    body {
++        width: 80%;
++        padding-left: 10em;
++    }
++
++    .logo {
++        padding-top: 2em;
++        float: left
++    }
++
++    .nav {
++        background-color: #0e230d;
++        color: white;
++        height: 2.5em;
++        padding-top: 1.5em;
++        margin-bottom: 6em;
++        font-size: 1.2em;
++        text-align: center;
++        text-decoration: none;
++    }
++
++    li {
++        float: left;
++        text-decoration: none;
++        width: 15%;
++        margin-right: 1em;
++        margin-left: 1em;
++    }
++
++    .tagline {
++        clear: both;
++        width: 80%;
++        text-align: left;
++    }
++
++    .articleh2 {
++        clear: both;
++        text-align: left;
++        margin-left: 1.8em;
++    }
++
++    .articleimg {
++        width: 20%;
++        float: left;
++        margin: 2em;
++    }
++
++    .articlep {
++        font-size: 1.25rem;
++        margin: 2em;
++        padding-top: 0.5em;
++    }
++
++    .portfolioh3 {
++        clear: both;
++        text-align: center;
++    }
++
++    #ione {
++        width: 30%;
++    }
++
++    #itwo {
++        float: right;
++        width: 30%;
++        position: relative;
++        bottom: 24em;
++        right: 23em;
++    }
++
++    #ithree {
++        float: right;
++        width: 30%;
++        position: relative;
++        bottom: 48em;
++        left: 26em;
++    }
++
++    #ifour {
++        float: left;
++        width: 30%;
++        margin: 0.7em;
++        margin-right: 2em;
++        position: relative;
++        bottom: 40em;
++        right: 22em;
++    }
++
++    #ifive {
++        float: right;
++        width: 30%;
++        margin: 0.7em;
++        margin-left: 2em;
++        position: relative;
++        bottom: 64em;
++        right: 2em;
++    }
++
++    #isix {
++        float: right;
++        width: 30%;
++        margin: 0.7em;
++        margin-right: 2em;
++        position: relative;
++        bottom: 88.5em;
++        left: 3.5em;
++    }
++
++    #hone {
++        width: 30%;
++    }
++
++    #htwo {
++        clear: both;
++        float: right;
++        width: 30%;
++        position: relative;
++        bottom: 24em;
++        right: 26em;
++    }
++
++    #hthree {
++        clear: both;
++        float: left;
++        width: 30%;
++        position: relative;
++        bottom: 48.5em;
++        left: 56em;
++    }
++
++    #hfour {
++        clear: both;
++        float: right;
++        width: 30%;
++        position: relative;
++        bottom: 40em;
++        right: 53.5em;
++    }
++
++    #hfive {
++        clear: both;
++        float: left;
++        width: 30%;
++        position: relative;
++        bottom: 64.2em;
++        left: 27em;
++    }
++
++    #hsix {
++        clear: both;
++        float: right;
++        width: 30%;
++        position: relative;
++        bottom: 88em;
++        left: 3em;
++    }
